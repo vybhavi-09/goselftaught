@@ -15,5 +15,5 @@ class Scraper:
             url = tag.get("href")
             if url is None:
                 continue
-            if "html" in url:
+            if "http" in url:
                 print("\n" + url)
